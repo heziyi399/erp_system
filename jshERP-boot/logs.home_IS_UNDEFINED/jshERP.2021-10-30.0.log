@@ -1,0 +1,6 @@
+2021/10/30-10:57:10 DEBUG [http-nio-9999-exec-1] com.jsh.erp.datasource.mappers.PlatformConfigMapper.selectByExample - ==>  Preparing: SELECT id, platform_key, platform_key_info, platform_value FROM jsh_platform_config WHERE (platform_key = ?) 
+2021/10/30-10:57:10 DEBUG [http-nio-9999-exec-1] com.jsh.erp.datasource.mappers.PlatformConfigMapper.selectByExample - ==> Parameters: platform_name(String)
+2021/10/30-10:57:10 DEBUG [http-nio-9999-exec-1] com.jsh.erp.datasource.mappers.PlatformConfigMapper.selectByExample - <==      Total: 1
+2021/10/30-10:57:10 DEBUG [http-nio-9999-exec-9] com.jsh.erp.datasource.mappers.PlatformConfigMapper.selectByExample - ==>  Preparing: SELECT id, platform_key, platform_key_info, platform_value FROM jsh_platform_config WHERE (platform_key = ?) 
+2021/10/30-10:57:10 DEBUG [http-nio-9999-exec-9] com.jsh.erp.datasource.mappers.PlatformConfigMapper.selectByExample - ==> Parameters: platform_url(String)
+2021/10/30-10:57:10 DEBUG [http-nio-9999-exec-9] com.jsh.erp.datasource.mappers.PlatformConfigMapper.selectByExample - <==      Total: 1
